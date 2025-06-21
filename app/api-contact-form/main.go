@@ -3,9 +3,7 @@
 // It initializes the necessary configurations, sets up the database connection,
 // configures repositories, services, and handlers, and starts the HTTP server
 // using the Gin framework.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package main
 
 import (

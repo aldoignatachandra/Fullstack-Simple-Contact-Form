@@ -2,9 +2,7 @@
 // Package helpers provides utility functions for the API Contact Form application.
 //
 // It includes functions for parsing environment variables and handling configuration-related tasks.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package helpers
 
 import (

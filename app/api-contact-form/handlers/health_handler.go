@@ -2,9 +2,7 @@
 //
 // Specifically, the HealthHandler provides a health check endpoint to verify
 // that the API is running correctly.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package handlers
 
 import (

@@ -2,9 +2,7 @@
 //
 // It establishes a connection to a MySQL database using GORM, configures the connection pool,
 // and performs automatic migrations for the Contact model.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package config
 
 import (

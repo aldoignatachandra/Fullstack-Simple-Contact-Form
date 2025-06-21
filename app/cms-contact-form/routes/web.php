@@ -1,10 +1,5 @@
 <?php
 
-/**
- * Author: Tri Wicaksono
- * Website: https://triwicaksono.com
- */
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 

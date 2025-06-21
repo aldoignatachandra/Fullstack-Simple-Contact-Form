@@ -3,9 +3,7 @@
 //
 // It defines the ContactService interface and its implementation, which handle the creation,
 // retrieval, updating, and deletion of contact records by interacting with the ContactRepository.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package services
 
 import (

@@ -2,9 +2,7 @@
 //
 // It includes functions to retrieve environment variables with default fallback values,
 // ensuring that the application can gracefully handle missing or unset environment variables.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package config
 
 import "os"

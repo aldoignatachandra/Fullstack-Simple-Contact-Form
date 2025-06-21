@@ -2,9 +2,7 @@
 //
 // It defines the ContactHandler struct, which provides methods to handle
 // CRUD (Create, Read, Update, Delete) operations for contact entities.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package handlers
 
 import (

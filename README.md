@@ -151,7 +151,7 @@ The CMS is built with Laravel and provides an admin interface for managing conta
 To make changes to the Go API:
 
 1. Make your changes in the `app/api-contact-form` directory
-2. Rebuild the container:
+2. Rebuild the container in the root directory:
 
 ```bash
 docker compose up -d --build api-contact-form
@@ -162,7 +162,7 @@ docker compose up -d --build api-contact-form
 To make changes to the Next.js frontend:
 
 1. Make your changes in the `app/client-contact-form` directory
-2. Rebuild the container:
+2. Rebuild the container in the root directory:
 
 ```bash
 docker compose up -d --build client-contact-form
@@ -173,7 +173,7 @@ docker compose up -d --build client-contact-form
 To make changes to the Laravel CMS:
 
 1. Make your changes in the `app/cms-contact-form` directory
-2. Rebuild the container:
+2. Rebuild the container in the root directory:
 
 ```bash
 docker compose up -d --build cms-contact-form nginx-cms-contact-form

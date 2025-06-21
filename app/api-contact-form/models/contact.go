@@ -3,9 +3,7 @@
 // It includes the Contact struct, which represents a contact message submitted
 // through the API. The struct is configured for use with GORM, an ORM library
 // for Go, to handle database interactions.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package models
 
 import (

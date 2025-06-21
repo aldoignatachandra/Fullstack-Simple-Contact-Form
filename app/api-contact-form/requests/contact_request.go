@@ -2,9 +2,7 @@
 //
 // It includes the ContactRequest struct, which represents the data required to create or update
 // a contact message through the API.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package requests
 
 // ContactRequest represents the payload for creating or updating a contact message.

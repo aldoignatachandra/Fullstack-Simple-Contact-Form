@@ -2,9 +2,7 @@
 //
 // Specifically, the MainHandler provides the root endpoint to verify
 // that the API Contact Form is running correctly.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package handlers
 
 import (

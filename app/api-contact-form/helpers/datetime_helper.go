@@ -3,9 +3,7 @@
 //
 // It includes functions for time formatting and timezone management based on
 // environment configurations.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package helpers
 
 import (

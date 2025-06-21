@@ -3,9 +3,7 @@
 // It includes the APIResponse struct for standard API responses and the ContactResponse struct
 // for representing contact data in responses. Additionally, it provides helper functions
 // to convert models to response formats.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package responses
 
 import (

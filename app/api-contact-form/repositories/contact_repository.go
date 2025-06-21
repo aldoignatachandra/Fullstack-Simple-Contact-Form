@@ -3,9 +3,7 @@
 //
 // It defines the ContactRepository interface and its GORM-based implementation
 // for performing CRUD operations on contact records in the database.
-//
-// Author: Tri Wicaksono
-// Website: https://triwicaksono.com
+
 package repositories
 
 import (
