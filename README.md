@@ -51,7 +51,7 @@ The project follows a microservices architecture with the following components:
 
 ### Prerequisites
 
-- Docker and Docker Compose
+- Docker
 - Git
 
 ### Installation
@@ -150,7 +150,7 @@ The CMS is built with Laravel and provides an admin interface for managing conta
 
 To make changes to the Go API:
 
-1. Make your changes in the app/api-contact-form directory
+1. Make your changes in the `app/api-contact-form` directory
 2. Rebuild the container:
 
 ```bash
@@ -161,7 +161,7 @@ docker compose up -d --build api-contact-form
 
 To make changes to the Next.js frontend:
 
-1. Make your changes in the app/client-contact-form directory
+1. Make your changes in the `app/client-contact-form` directory
 2. Rebuild the container:
 
 ```bash
@@ -172,7 +172,7 @@ docker compose up -d --build client-contact-form
 
 To make changes to the Laravel CMS:
 
-1. Make your changes in the app/cms-contact-form directory
+1. Make your changes in the `app/cms-contact-form` directory
 2. Rebuild the container:
 
 ```bash
@@ -183,7 +183,7 @@ docker compose up -d --build cms-contact-form nginx-cms-contact-form
 
 ### API Testing
 
-You can test the API endpoints using tools like cURL, Postman, or any HTTP client.
+You can test the API endpoints using tools like `cURL`, `Postman`, or any `HTTP client`.
 
 Example cURL command to create a new contact:
 
