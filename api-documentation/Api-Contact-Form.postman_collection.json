@@ -1,0 +1,162 @@
+{
+	"info": {
+		"_postman_id": "f54e1a37-68bf-428c-b3f5-c816767b4af9",
+		"name": "Api-Contact-Form",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9117244"
+	},
+	"item": [
+		{
+			"name": "API-Health-Check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/health",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"health"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/health'"
+			},
+			"response": []
+		},
+		{
+			"name": "API-Create-Contact",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"John Doe 2\",\n    \"email\": \"john2@example.com\",\n    \"phone\": \"1234567890\",\n    \"message\": \"Hello, World!\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"contacts"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/contacts' \\\n--header 'Content-Type: application/json' \\\n--data-raw '{\n  \"name\": \"John Doe\",\n  \"email\": \"john@example.com\",\n  \"phone\": \"1234567890\",\n  \"message\": \"Hello, World!\"\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "API-Get-Contacts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/contacts/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"contacts",
+						""
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/contacts/'"
+			},
+			"response": []
+		},
+		{
+			"name": "API-Detail-Contact",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/contacts/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"contacts",
+						"2"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8080/contacts/1'"
+			},
+			"response": []
+		},
+		{
+			"name": "API-Update-Contact",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Jane Doe\",\n  \"email\": \"jane@example.com\",\n  \"phone\": \"0987654321\",\n  \"message\": \"Updated Message\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/contacts/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"contacts",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl --location --request PUT 'http://localhost:8080/contacts/1' \\\n--header 'Content-Type: application/json' \\\n--data-raw '{\n  \"name\": \"Jane Doe\",\n  \"email\": \"jane@example.com\",\n  \"phone\": \"0987654321\",\n  \"message\": \"Updated Message\"\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "API-Delete-Contact",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/contacts/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"contacts",
+						"2"
+					]
+				},
+				"description": "Generated from cURL: curl --location --request DELETE 'http://localhost:8080/contacts/1'"
+			},
+			"response": []
+		}
+	]
+}
